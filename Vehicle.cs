@@ -1,5 +1,6 @@
-﻿using System;   
-class Vehicle
+﻿using System;
+
+internal class Vehicle
     {
 
     public string brand = "Ford";  // Vehicle field
@@ -9,7 +10,7 @@ class Vehicle
     }
 }
 
-class Car : Vehicle
+internal class Car : Vehicle
 {
     public string modelName = "Mustang";  // Car field
 }

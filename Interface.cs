@@ -1,15 +1,16 @@
 ﻿using System;
-interface IFirstInterface
+
+internal interface IFirstInterface
 {
     void myMethod(); 
 }
 
-interface ISecondInterface
+internal interface ISecondInterface
 {
     void myOtherMethod(); 
 }
 
-class DemoClass : IFirstInterface, ISecondInterface
+internal class DemoClass : IFirstInterface, ISecondInterface
 {
     public void myMethod()
     {

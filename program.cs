@@ -2,9 +2,9 @@
 
 namespace Week4_oops
 {
-    class program
+    internal class program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             car    myObj = new car();
             car myobj2 = new car(); 
@@ -84,6 +84,23 @@ namespace Week4_oops
             DemoClass demo = new DemoClass();
             demo.myMethod();
             demo.myOtherMethod();
+
+            /// Calling Enum 
+            Console.WriteLine("=====================");
+            Level myVar = Level.Medium;
+            switch (myVar)
+            {
+                case Level.Low:
+                    Console.WriteLine("Low level");
+                    break;
+                case Level.Medium:
+                    Console.WriteLine("Medium level");
+                    break;
+                case Level.High:
+                    Console.WriteLine("High level");
+                    break;
+
+            }
 
         }
     }

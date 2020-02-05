@@ -1,6 +1,6 @@
 ﻿using System;
 
-class exercise2_classmember
+internal class exercise2_classmember
 {
 
    public  string color = "red";

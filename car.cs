@@ -1,5 +1,6 @@
 ﻿using System;
-    class car
+
+internal class car
     {
 
         public string Color = "red";

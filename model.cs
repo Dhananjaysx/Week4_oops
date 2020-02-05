@@ -2,7 +2,7 @@
 
 namespace Week4_oops
 {
-    class model
+    internal class model
     {
  
         public string model1;

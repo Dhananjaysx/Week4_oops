@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Person
+internal class Person
 {
     private string name; // field
     public string Name   // property

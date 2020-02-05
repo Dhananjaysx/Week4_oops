@@ -2,8 +2,8 @@
 
 namespace Week4_oops
 {
-    class car
+    internal class car
     {
-        string color = "red";
+        private string color = "red";
             }
 }

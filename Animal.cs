@@ -1,5 +1,6 @@
 ﻿using System;
-        class Animal  
+
+internal class Animal  
     {
         public virtual void animalSound()
         {
@@ -7,7 +8,7 @@
         }
     }
 
-    class Pig : Animal  
+internal class Pig : Animal  
     {
         public override void animalSound()
         {
@@ -15,7 +16,7 @@
         }
     }
 
-    class Dog : Animal  
+internal class Dog : Animal  
     {
         public override void animalSound()
         {

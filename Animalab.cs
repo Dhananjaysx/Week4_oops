@@ -1,7 +1,6 @@
 ﻿using System;
 
-  
-   abstract class Animalab
+internal abstract class Animalab
 {
     public abstract void animalSound();
    public void sleep()
@@ -10,7 +9,7 @@
   }
 }
 
-class Pigab : Animalab
+internal class Pigab : Animalab
 {
   public override void animalSound()
   {
