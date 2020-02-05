@@ -99,7 +99,7 @@ namespace Week4_oops
                 case Level.High:
                     Console.WriteLine("High level");
                     break;
-
+                    Console.WriteLine("=================");
             }
 
         }
